@@ -17,3 +17,6 @@ let SomeNumber = 10
 let stringNumber = String(SomeNumber)
 console.log(stringNumber)
 console.log(typeof stringNumber)
+
+let stringg="Am I present?"
+console.log(stringg+"apple")
