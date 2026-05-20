@@ -13,7 +13,7 @@
 // console.log(Boolean(isLoggedIn))
 // "apratim" => true ; "" => false or 0
 
-let someNumber = 10
-let stringNumber = String(someNumber)
+let SomeNumber = 10
+let stringNumber = String(SomeNumber)
 console.log(stringNumber)
 console.log(typeof stringNumber)
