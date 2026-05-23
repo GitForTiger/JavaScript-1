@@ -45,11 +45,31 @@ let str3=str1+str2
 //Basically the type present at first as the argument is considered.
 //But this type of practice is NOT considered good.
 
-console.log(true) //true
-console.log(+true) //1
-console.log(+"") //0
+// console.log(true) //true
+// console.log(+true) //1
+// console.log(+"") //0
 
 let num1,num2,num3
-console.log(num1) //undefined
+// console.log(num1) //undefined
 num1=num2=num3=2+2
 
+let gameCounter = 100
+gameCounter++
+// console.log(gameCounter) //101
+gameCounter-- // Reset to 100
+++gameCounter
+// console.log(gameCounter) //101
+
+// The above text might make one feel that x++ == ++x
+//But that is not the case
+
+//Postfix
+let arr = [10, 20, 30];
+let i = 0;
+console.log(arr[i++]); // 10
+console.log(i);        // 1
+
+//Prefix
+let j = 0;
+console.log(arr[++j]); // 20
+console.log(j);        // 1
