@@ -36,4 +36,24 @@ const myFunction = function(){
 // typeof returns object for all the non primitive datatypes.
 // You might see it returning "function" for functions, but actually it is called object function.
 
-console.log(typeof anotherId);
+// console.log(typeof anotherId);
+
+
+// STACK AND HEAP MEMORY
+// primitive datatypes : stack memory : copy architecture
+// non primitive datatypes : heap memory : reference architecture
+
+let myname = "Apratim"
+let anothername = myname
+console.log(anothername)
+anothername = "Ambika"
+console.log(myname)
+console.log(anothername)
+
+let userOne = {
+    email : "chhapra@gmail.com",
+    upi : "chhapra@ybl"
+}
+let userTwo = userOne
+userTwo.email = "apratim@gmail.com"
+console.log(userOne.email);
