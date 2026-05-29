@@ -39,7 +39,6 @@ const myFunction = function(){
 // console.log(typeof anotherId);
 
 
-
 // STACK AND HEAP MEMORY
 // primitive datatypes : stack memory : copy architecture
 // non primitive datatypes : heap memory : reference architecture
