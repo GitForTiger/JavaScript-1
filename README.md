@@ -1,2 +1,2 @@
 # JavaScript-1
-First repository on Web Development.
+First repository on Web Development
